@@ -6,3 +6,7 @@
 - create an account that can do root stuff always
 - install ssh
 - install docker
+
+
+## Reverse proxy ?
+I found possibility not to use reverse proxy [link](https://iximiuz.com/en/posts/multiple-containers-same-port-reverse-proxy/)
