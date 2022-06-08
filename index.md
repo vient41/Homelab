@@ -1,5 +1,9 @@
 # Homelab
 
+
+## Links and information to keep
+- [Self hosted list of service](https://github.com/awesome-selfhosted/awesome-selfhosted)
+
 ## configuration of my linux docker system
 - needs keyboard in french
 - apt update
