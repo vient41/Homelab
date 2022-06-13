@@ -10,6 +10,9 @@
 - create an account that can do root stuff always
 - install ssh
 - install docker
+- git to manage configuration file of linux 
+  - .bashrc
+  - any other file
 
 
 ## Reverse proxy ?
