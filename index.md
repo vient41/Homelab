@@ -13,6 +13,7 @@
 - git to manage configuration file of linux [Link](https://www.coderholic.com/using-git-and-github-to-sync-config-files/)
   - .bashrc
   - any other file
+  - visudo
 
 
 ## Reverse proxy ?
