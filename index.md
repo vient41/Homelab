@@ -18,3 +18,11 @@
 
 ## Reverse proxy ?
 I found possibility not to use reverse proxy [link](https://iximiuz.com/en/posts/multiple-containers-same-port-reverse-proxy/)
+
+## security environment
+- double stack combine NVR and face recognition
+- deepstack for recognition
+- frigate for NVR
+https://youtu.be/_61-hIL1AjQ
+
+
