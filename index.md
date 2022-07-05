@@ -23,6 +23,9 @@ I found possibility not to use reverse proxy [link](https://iximiuz.com/en/posts
 - double stack combine NVR and face recognition
 - deepstack for recognition
 - frigate for NVR
-https://youtu.be/_61-hIL1AjQ
+- https://youtu.be/_61-hIL1AjQ
 
 
+## Websocketd 
+- https://github.com/tripleee/websocketd-alpine 
+- https://github.com/joewalnes/websocketd 
