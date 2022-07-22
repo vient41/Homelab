@@ -31,6 +31,6 @@ I found possibility not to use reverse proxy [link](https://iximiuz.com/en/posts
 - https://github.com/joewalnes/websocketd 
 
 ## Network
-PFS Sense : https://www.youtube.com/watch?v=lUzSsX4T4WQ&ab_channel=NetworkChuck
-Pihole: https://www.youtube.com/watch?v=4X6KYN1cQ1Y&ab_channel=Goose
-need ubiquitin Unifi because Virgin media box is shit and you can't disable DNS.... 
+- PFS Sense : https://www.youtube.com/watch?v=lUzSsX4T4WQ&ab_channel=NetworkChuck
+- Pihole: https://www.youtube.com/watch?v=4X6KYN1cQ1Y&ab_channel=Goose
+- need ubiquitin Unifi because Virgin media box is shit and you can't disable DNS.... 
