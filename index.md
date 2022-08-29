@@ -22,7 +22,7 @@
 | IP Table    | Description |
 | ----------- | ----------- |
 | 192.168.10.2| RPi4 Homme Assistant       |
-| Paragraph   | Text        |
+| 192.168.10.3| tbd        |
 
 ## Reverse proxy ?
 I found possibility not to use reverse proxy [link](https://iximiuz.com/en/posts/multiple-containers-same-port-reverse-proxy/)
