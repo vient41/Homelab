@@ -15,10 +15,14 @@
   - any other file
   - visudo
 
-##Vigin Media Box router
+## Vigin Media Box router
 - DHCP Local Settings 192.168.10.100
 - Lease time 24 hours - 86.4K sec
 
+| IP Table    | Description |
+| ----------- | ----------- |
+| 192.168.10.2| RPi4 Homme Assistant       |
+| Paragraph   | Text        |
 
 ## Reverse proxy ?
 I found possibility not to use reverse proxy [link](https://iximiuz.com/en/posts/multiple-containers-same-port-reverse-proxy/)
