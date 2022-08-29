@@ -24,6 +24,9 @@
 | 192.168.10.2| RPi4 Homme Assistant       |
 | 192.168.10.3| tbd        |
 
+## Entity naming convention
+- ROOM_DEVICES_POSITON-IN-THE-ROOM
+
 ## Reverse proxy ?
 I found possibility not to use reverse proxy [link](https://iximiuz.com/en/posts/multiple-containers-same-port-reverse-proxy/)
 
