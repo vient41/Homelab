@@ -84,7 +84,7 @@ trigger_days:
 - Sun
 exclude_addons: []
 exclude_folders: []
-'''
+```
 
 ```
 Logs:
@@ -109,7 +109,7 @@ Logs:
 [22-03-14 18:20:48] INFO: Copying backup d4aec165 (Samba_Backup_2022_03_14_18_20.tar) to share
 [22-03-14 18:20:49] INFO: Deleting d4aec165 (Samba Backup 2022-03-14 18:20) local
 [22-03-14 18:21:02] INFO: Backup finished
-''' 
+``` 
 
 ### create a manual back-up 
 
