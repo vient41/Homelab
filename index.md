@@ -88,7 +88,7 @@ A home assistant can be a wide topic and cover a lot of area but I will maintain
  
 
  
-[Infrastructure stack schema](/images/SchemaInfra.png)
+![Infrastructure stack schema](/images/SchemaInfra.png)
 
 
 
