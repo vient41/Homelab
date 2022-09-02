@@ -2,7 +2,27 @@
 The project is the beginning of a new way of living. Where I would like to create an automated house capable of understanding my family behaviour and react to the needs of everyone to facilitate our life at home. The document will describe what I would like for my family and different house area. Moreover the different technology I am able to use, test I did to best fit our needs.
  
  
-## Agenda:
+## Table of content:
+- [Homelab](#homelab)
+  - [Table of content:](#table-of-content)
+  - [Specification and Requirements](#specification-and-requirements)
+  - [Architecture](#architecture)
+  - [Planning](#planning)
+  - [Links and information to keep](#links-and-information-to-keep)
+  - [configuration of my linux docker system](#configuration-of-my-linux-docker-system)
+  - [Vigin Media Box router](#vigin-media-box-router)
+- [Home Assistant](#home-assistant)
+  - [Backup](#backup)
+    - [MAKING A BACKUP FROM THE UI](#making-a-backup-from-the-ui)
+    - [RESTORING A BACKUP ON A NEW INSTALL](#restoring-a-backup-on-a-new-install)
+    - [Copy to another distant location](#copy-to-another-distant-location)
+    - [create a manual back-up](#create-a-manual-back-up)
+  - [Entity naming convention](#entity-naming-convention)
+  - [Reverse proxy ?](#reverse-proxy-)
+  - [security environment](#security-environment)
+  - [Websocketd](#websocketd)
+  - [Network](#network)
+
 - Specification and requirements
 - Architecture
 - Tests and validation
@@ -11,7 +31,6 @@ The project is the beginning of a new way of living. Where I would like to creat
 ## Specification and Requirements
 [Mural](https://app.mural.co/invitation/mural/instana2043/1662101641691?sender=ud390ebff24a87cb50d5c4178&key=ab0fbe28-410d-4aef-b900-dc734c1fa7b7)
 
-[Trello](https://trello.com/b/m6jvqlUx/home-assistant)
  
 Requirements
 - I want to use new technology      in a containized environnement
