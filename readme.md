@@ -13,6 +13,8 @@ The document will describe what I would like for my family and different house a
 
 ## Specification and Requirements
 [Mural](https://app.mural.co/invitation/mural/instana2043/1662101641691?sender=ud390ebff24a87cb50d5c4178&key=ab0fbe28-410d-4aef-b900-dc734c1fa7b7)
+
+
 [Trello](https://trello.com/b/m6jvqlUx/home-assistant)
  
 Requirements
