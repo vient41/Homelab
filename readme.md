@@ -12,56 +12,7 @@ The document will describe what I would like for my family and different house a
 
 
 ## Specification and Requirements
-
-- An Infrastructure to host all      these developpements plateform (probably raspberry pi and K3S cluster)
-- A docker envirronment to      easily manage all software stack present in the infrastructure
-- A backup and receovry system,      to maintain sustanbility over time and reduce human errors.
-- A security system Alarm and      Camera
-- A secured network using a VPN      ?
-- A hub to manage devices and      create automation.
-- A vocal assistant to      recognise different language and translate voice to task, script and      automation
-- Devices to take remote      actions
-- Sensors to acquire the signal
-- Home Energy Management
- 
-- A reliable hardware      infrastructure to host all the system
-- A secured software plateform      easy to run, maintain
-- A backup and recovery system
-- A security Alarm and Camera
-- A secured network where I can      have a good bandwith for internet, gaming, movie and another dedicated      local dedicated network to mangage devices
-- I want to be able to talk to      the system, it needs to understand Polish and French language.
-- I need the least effort to      integrate sensors and devices
-- If possible I would like to      integrate all data to a single bus where I can ingest data, listen, and      automate task
-- If the system can stay      secured locally and no data sent to the cloud, it is a plus.
-- Ability to send a reminder that desktop is ON upstairs and nothing moved for the last X hous or minutes to save energy bill.
- 
-- Ideas provided by Joanna
-- The system should discovere      himself who left the bed in the morning
-- Find a solution to indicate      your mood / to change the music in the morning or add a orange juice to      your coffee.
-- Light during the night      detected by presence to go to the toilet with a light dimmer maybe ?
-- Voicie calendar assistant      that tells you RDV and task reminder ("time to buy christamas      present")
-- Smart mirror that give you      the weather
-- System able to match the      purfum with the weather
-- Wardrobe assistant to match      weather
-- Water in the shower is nearly      cold so please wake up
-- Wake up dynamically depending      on calendar task of the family and
-- Breakfast assistant depending      on what's in the fridge
-- Shopping list assistant
-- Key detector inside the car,      to stop forgetting keys in the car
-- Door detector to make sure      all is closed when leaving/going to bed
-- Miror to compliment my beauty      :)
-- -System that assist baby when      he wakes up before parents, with light or a tv program or something else
-- Mirror that tell me to shave my beard
-- Security system on demand      that record movement outside the house with 7 days retention
-- GPS tracking
-- The system has to be zone      tracking instead of continuous tracking
-- Adult zone tracking
-- Home zone, to notify when        we are at home
-- Kids zone tracking
-- Notify when kids are at        home, school area, friends house, sport area
-- Health for kids - Can we  track emotional behaviour of the kid ? If hearbit to high, expecting call      from school ?
-- Christmas mode(scene) : House with christmas music and light starting in the morning
-- Push notification when new      informations from school
+[Mural](https://app.mural.co/invitation/mural/instana2043/1662101641691?sender=ud390ebff24a87cb50d5c4178&key=ab0fbe28-410d-4aef-b900-dc734c1fa7b7)
 
  
 Requirements
@@ -138,12 +89,14 @@ A full backup includes the following directories:
 - ssl
 - media
 A partial backup consists of any number of the above default directories and installed add-ons.
+
 ### MAKING A BACKUP FROM THE UI
 1. Go to Configuration > Add-ons & Backups > Backups in the UI.
 2. Provide a name for the backup.
 3. Choose full or partial.
 4. Choose to password protect or not. Password-protected backups cannot easily be browsed outside of Home Assistant OS.
 5. Click “Create” to begin the backup.
+
 ### RESTORING A BACKUP ON A NEW INSTALL
 You can make use of backup which you have copied off of a previous install to restore to a new installation during the onboarding process. Follow the link at the bottom of the account creation page to upload your backup from the previous installation.
 For restoring a backup at any other time, visit the Supervisor backup panel in your UI and use the following steps:
