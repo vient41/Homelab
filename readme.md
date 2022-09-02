@@ -1,11 +1,8 @@
 # Homelab
-The project is the beginning of a new way of living. Where I would like to create an automated house capable of understanding my family behaviour and react to the needs of everyone to facilitate our life at home.
- 
-The document will describe what I would like for my family and different house area. Moreover the different technology I am able to use, test I did to best fit our needs.
+The project is the beginning of a new way of living. Where I would like to create an automated house capable of understanding my family behaviour and react to the needs of everyone to facilitate our life at home. The document will describe what I would like for my family and different house area. Moreover the different technology I am able to use, test I did to best fit our needs.
  
  
-### Agenda:
- 
+## Agenda:
 - Specification and requirements
 - Architecture
 - Tests and validation
