@@ -219,3 +219,5 @@ I found possibility not to use reverse proxy [link](https://iximiuz.com/en/posts
 ###Unifi Network Application
  Network Applicaiton Name : FR_PL_Home
  
+ There is firewall blocker and I don't know which port I have to opent to make sure I keep USG + AP online in the tool. 
+ 
