@@ -88,7 +88,7 @@ Test home assistant
 
 | IP Table    | Description |
 | ----------- | ----------- |
-| 192.168.10.2| RPi4 Homme Assistant       |
+| 192.168.1.1| Vigin Media Modem Box |
 | 192.168.10.3| tbd        |
 
 # Home Assistant
