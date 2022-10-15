@@ -209,5 +209,5 @@ I found possibility not to use reverse proxy [link](https://iximiuz.com/en/posts
 
 | IP Table    | Description |
 | ----------- | ----------- |
-| 192.168.10.2| RPi4 Homme Assistant|
-| 192.168.10.3| tbd        |
+| 192.168.1.2| tbd         |
+| 192.168.1.3| tbd        |
