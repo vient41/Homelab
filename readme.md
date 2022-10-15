@@ -82,7 +82,7 @@ Test home assistant
 
 | IP Table    | Description |
 | ----------- | ----------- |
-| 192.168.10.2| RPi4 Homme Assistant       |
+| 192.168.1.1| Vigin Media Modem Box |
 | 192.168.10.3| tbd        |
 
 ## Backup
@@ -208,3 +208,9 @@ I found possibility not to use reverse proxy [link](https://iximiuz.com/en/posts
 - PFS Sense : https://www.youtube.com/watch?v=lUzSsX4T4WQ&ab_channel=NetworkChuck
 - Pihole: https://www.youtube.com/watch?v=4X6KYN1cQ1Y&ab_channel=Goose
 - need ubiquitin Unifi because Virgin media box is shit and you can't disable DNS.... 
+
+###Unifi Network Application
+ Network Applicaiton Name : FR_PL_Home
+ 
+ There is firewall blocker and I don't know which port I have to opent to make sure I keep USG + AP online in the tool. 
+ 
