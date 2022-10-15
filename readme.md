@@ -10,7 +10,6 @@ The project is the beginning of a new way of living. Where I would like to creat
   - [Planning](#planning)
   - [Links and information to keep](#links-and-information-to-keep)
   - [configuration of my linux docker system](#configuration-of-my-linux-docker-system)
-  - [Vigin Media Box router](#vigin-media-box-router)
   - [Backup](#backup)
     - [MAKING A BACKUP FROM THE UI](#making-a-backup-from-the-ui)
     - [RESTORING A BACKUP ON A NEW INSTALL](#restoring-a-backup-on-a-new-install)
@@ -21,6 +20,7 @@ The project is the beginning of a new way of living. Where I would like to creat
   - [security environment](#security-environment)
   - [Websocketd](#websocketd)
   - [Network](#network)
+    - [Unifi Security Gateway](#unifi-security-gateway)
 
 ## Specification and Requirements
 [Mural](https://app.mural.co/invitation/mural/instana2043/1662101641691?sender=ud390ebff24a87cb50d5c4178&key=ab0fbe28-410d-4aef-b900-dc734c1fa7b7)
@@ -76,14 +76,7 @@ Test home assistant
   - any other file
   - visudo
 
-## Vigin Media Box router
-- DHCP Local Settings 192.168.10.100
-- Lease time 24 hours - 86.4K sec
 
-| IP Table    | Description |
-| ----------- | ----------- |
-| 192.168.1.1| Vigin Media Modem Box |
-| 192.168.10.3| tbd        |
 
 ## Backup
 Once the installation of HASSio is done, must put in place backup system. 
@@ -209,8 +202,12 @@ I found possibility not to use reverse proxy [link](https://iximiuz.com/en/posts
 - Pihole: https://www.youtube.com/watch?v=4X6KYN1cQ1Y&ab_channel=Goose
 - need ubiquitin Unifi because Virgin media box is shit and you can't disable DNS.... 
 
-###Unifi Network Application
- Network Applicaiton Name : FR_PL_Home
- 
- There is firewall blocker and I don't know which port I have to opent to make sure I keep USG + AP online in the tool. 
- 
+### Unifi Security Gateway
+- Virgin Media Box in Modem Mode
+- USG in default configuration
+- Dell Open Manage in default configuration
+
+| IP Table    | Description |
+| ----------- | ----------- |
+| 192.168.10.2| RPi4 Homme Assistant|
+| 192.168.10.3| tbd        |
