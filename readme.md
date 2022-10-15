@@ -203,7 +203,8 @@ I found possibility not to use reverse proxy [link](https://iximiuz.com/en/posts
 - need ubiquitin Unifi because Virgin media box is shit and you can't disable DNS.... 
 
 ### Unifi Security Gateway
-The installation is straigh forwar:
+The installation is straigh forward:
+
 ```mermaid
 graph TD;
 Internet-->Virgin Media Box;
