@@ -203,24 +203,10 @@ I found possibility not to use reverse proxy [link](https://iximiuz.com/en/posts
 - need ubiquitin Unifi because Virgin media box is shit and you can't disable DNS.... 
 
 ### Unifi Security Gateway
-The installation is straigh forward:
+At first, I am using the desktop version of unify network to configure all the system. When fully ready, I will install the docker version if possible on raspberry hosting home assistant. The installation is straigh forward for desktop, just need java engine installed. 
 
-```mermaid
-graph TD;
-Internet-->Virgin Media Box;
-Virgin Media Box-->USG:
-USG--> Access Point;
-Access Point--> Wifi devices
-USG-->DellSwitch;
-DellSwitch->Devices
-```
-
-
+Some configuration statemens: 
 - Virgin Media Box in Modem Mode
 - USG in default configuration
 - Dell Open Manage in default configuration
-
-| IP Table    | Description |
-| ----------- | ----------- |
-| 192.168.1.2| tbd         |
-| 192.168.1.3| tbd        |
+- credential to login the unify are stored in IBM 1paswword
