@@ -209,4 +209,13 @@ Some configuration statemens:
 - Virgin Media Box in Modem Mode
 - USG in default configuration
 - Dell Open Manage in default configuration
+<<<<<<< Updated upstream
 - credential to login the unify are stored in IBM 1paswword
+=======
+- DHCP is hosted by USG 
+
+| IP Table    | Description |
+| ----------- | ----------- |
+| 192.168.1.2| tbd         |
+| 192.168.1.3| tbd        |
+>>>>>>> Stashed changes
