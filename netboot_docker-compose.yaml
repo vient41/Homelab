@@ -1,0 +1,20 @@
+# docker-compose pour netbootxyz
+# necessite la creation d'un folder netboot dans lequel il faut 1 folder assets , 1 folder config et ce ficher compose
+services:
+  netbootxyz:
+    image: lscr.io/linuxserver/netbootxyz:latest
+    container_name: netbootxyz
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+      - PORT_RANGE=30000:30010 #optional
+      - WEB_APP_PORT=3000 #optional
+    volumes:
+      - ./config:/config
+      - ./assets:/assets #optional
+    ports:
+      - 3000:3000
+      - 69:69/udp
+      - 8080:80 #optional
+    restart: unless-stopped
