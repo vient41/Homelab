@@ -1,1 +1,43 @@
+services:
+  deepstack:
+    command:
+      - "/app/server/server"
+    container_name: "deepstack"
+    environment:
+      - "VISION-FACE=True"
+      - "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/go/bin"
+      - "LANG=C.UTF-8"
+      - "GPG_KEY=0D96DF4D4110E5C43FBFB17F2D347EA6AA65421D"
+      - "PYTHON_VERSION=3.7.12"
+      - "PYTHON_PIP_VERSION=21.2.4"
+      - "PYTHON_SETUPTOOLS_VERSION=57.5.0"
+      - "PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/3cb8888cc2869620f57d5d2da64da38f516078c7/public/get-pip.py"
+      - "PYTHON_GET_PIP_SHA256=c518250e91a70d7b20cceb15272209a4ded2a0c263ae5776f129e0d9b5674309"
+      - "SLEEP_TIME=0.01"
+      - "TIMEOUT=60"
+      - "SEND_LOGS=True"
+      - "CUDA_MODE=False"
+      - "APPDIR=/app"
+      - "DATA_DIR=/datastore"
+      - "TEMP_PATH=/deeptemp/"
+      - "PROFILE=desktop_cpu"
+    hostname: "c262b8286c4c"
+    image: "deepquestai/deepstack"
+    ipc: "private"
+    logging:
+      driver: "json-file"
+      options: {}
+    mac_address: "02:42:ac:11:00:05"
+    network_mode: "bridge"
+    ports:
+      - "80:5000/tcp"
+    volumes:
+      - "localstorage:/datastore"
+    working_dir: "/app/server"
+
+version: "3.6"
+
+volumes:
+  localstorage:
+    external: true
 
